@@ -115,5 +115,33 @@
 #pink {
     color: #FF00BF;
 }
-
 /*transform: translateX(50%);*/
+
+/*Dando estilo a la segunda seccion*/
+
+.firts-section {
+    height:639px ;
+    background: #53046b;
+    color: white;
+}
+
+.firts-section article {
+    float: left;
+    width: 523px;
+    height: 499px;
+    margin-left: 13%;
+    margin-top: 2%;
+    line-height: 2.5;
+}
+
+.firts-section figure {
+    float: right;
+    margin-right: 12%;
+    margin-top: 2%;
+}
+
+.firts-section figure img {
+   width: 469px;
+   height:515px ;
+}
+
