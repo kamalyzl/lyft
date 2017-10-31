@@ -22,7 +22,6 @@
  /*Diseñando la cabecera*/
  header {
     height: 650px;
-    outline: 1px solid blue;
     background-image: url("../assets/images/hero.gif");
     background-size: cover;
 
@@ -117,11 +116,12 @@
 }
 /*transform: translateX(50%);*/
 
-/*Dando estilo a la segunda seccion*/
+/*Dando estilo a la Primera seccion*/
 
 .firts-section {
     height:639px ;
-    background: #53046b;
+    background: #76278F;   
+    background: -webkit-linear-gradient(left top, #76278F, #2B1E66);
     color: white;
 }
 
@@ -131,7 +131,7 @@
     height: 499px;
     margin-left: 13%;
     margin-top: 2%;
-    line-height: 2.5;
+    line-height: 2;
 }
 
 .firts-section figure {
@@ -145,3 +145,50 @@
    height:515px ;
 }
 
+
+/*Dando estilo a la Segunda seccion */
+
+.second-section {
+   
+    height:508px ;
+}
+
+.second-section article{
+    width: 40%;
+    float: left;
+    margin-top: 1%;
+    padding-left: 5%;
+}
+
+.second-section iframe {
+    float: right;
+    width:60%;
+    height:508px ;
+}
+
+.desctiption p {
+    margin-top: 4%;
+}
+
+/*Diseñando la tercera seccion*/
+
+.tree-section {
+     height:508px ;
+ }
+ 
+ .tree-section article{
+     width: 40%;
+     float: right;
+     margin-top: 1%;
+     padding-left: 5%;
+ }
+ 
+ .tree-section iframe {
+     float: left;
+     width:60%;
+     height:508px ;
+ }
+ 
+ .desctiption-two p {
+     margin-top: 4%;
+ }
