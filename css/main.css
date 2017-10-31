@@ -146,28 +146,28 @@
 }
 
 
-/*Dando estilo a la Segunda seccion */
+/*Dando estilo a la Segunda y cuarta seccion*/
 
-.second-section {
+.seFou-section {
    
     height:508px ;
 }
 
-.second-section article{
+.seFou-section article{
     width: 40%;
     float: left;
     margin-top: 1%;
     padding-left: 5%;
 }
 
-.second-section iframe {
+.seFou-section iframe {
     float: right;
     width:60%;
     height:508px ;
 }
 
 .desctiption p {
-    margin-top: 4%;
+    margin-top: 6%;
 }
 
 /*Diseñando la tercera seccion*/
@@ -190,5 +190,22 @@
  }
  
  .desctiption-two p {
-     margin-top: 4%;
+     margin-top: 6%;
  }
+
+ /*Diseñando el pie de página*/
+
+ footer {
+     background: #333447;
+     overflow: auto;
+     height: 649px;
+ }
+
+ .first-footer figure img {
+     width: 159px;
+     height: 57px ;
+ }
+
+.first-footer div {
+    float: left;
+}
