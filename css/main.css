@@ -76,23 +76,44 @@
 }
 
 .group-input form {
-    outline: 1px solid red;
+    
     margin-top: 6%;
 }
 
 .group-input form input{
-    border:none;
+    border: none;
+    font-size: 19px;
+    border-bottom: 1px solid gray;
+    width: 455px;
+    padding-bottom: 14px;
+    outline: none;
 
 }
 .group-input form button{
-    border:none;
+    border: none;
     background: #FF00BF;
     color: white;
-    padding: 13px 13px;
+    padding: 18px 42px;
     border-radius: 11px;
     margin-top: 45px;
     margin-right: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
 
+.group-input form a {
+    color: gray;
+    font-size: 19px;
+}
+
+.group-input p {
+    font-size: 10px;
+    line-height: 2;
+    margin-top: 14px;
+}
+
+#pink {
+    color: #FF00BF;
 }
 
 /*transform: translateX(50%);*/
